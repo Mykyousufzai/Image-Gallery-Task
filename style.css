@@ -1,0 +1,27 @@
+/* Style the image gallery */
+#image-gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+#image-gallery li {
+    margin: 10px;
+}
+
+#image-gallery img {
+    max-width: 100px;
+    cursor: pointer;
+}
+
+/* Style the current displayed image */
+#image-display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#current-image {
+    max-width: 100%;
+}
